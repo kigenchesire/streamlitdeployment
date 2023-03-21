@@ -66,7 +66,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-from pyngrok import ngrok
- 
-public_url = ngrok.connect('8501')
-public_url
